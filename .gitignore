@@ -1,0 +1,15 @@
+# 敏感凭据：真实 config.json 与 .env 一律不入库
+config.json
+.env
+*.env.local
+
+# 虚拟环境与缓存
+venv/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+
+# 系统文件
+Thumbs.db
+.DS_Store

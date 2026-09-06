@@ -1,0 +1,17 @@
+{
+  "llm": {
+    "base_url": "https://your-gateway.example.com/v1",
+    "model": "moonshotai/kimi-k3",
+    "api_key": "REPLACE_WITH_YOUR_KIMI_API_KEY"
+  },
+  "llm_backup": {
+    "base_url": "https://your-gateway.example.com/v1",
+    "model": "grok",
+    "api_key": "REPLACE_WITH_YOUR_GROK_API_KEY"
+  },
+  "image": {
+    "base_url": "https://api.frimodel.com/v1",
+    "model": "gpt-image-2-medium",
+    "api_key": "REPLACE_WITH_YOUR_IMAGE_API_KEY"
+  }
+}
